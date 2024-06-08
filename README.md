@@ -28,6 +28,55 @@ to your `app` folder. The affected files can be copied or merged from
 Copy `env` to `.env` and tailor for your app, specifically the baseURL
 and any database settings.
 
+## Make Migrations
+```bash
+    Roles:
+
+php spark make:migration CreateRolesTable
+
+    Users:
+
+php spark make:migration CreateUsersTable
+
+    Permissions:
+
+php spark make:migration CreatePermissionsTable
+
+    Weddings:
+
+
+php spark make:migration CreateWeddingsTable
+
+    Guests:
+
+
+php spark make:migration CreateGuestsTable
+
+    Invitations:
+
+
+php spark make:migration CreateInvitationsTable
+
+    Events:
+
+
+php spark make:migration CreateEventsTable
+
+    Photos:
+
+php spark make:migration CreatePhotosTable
+
+    Comments:
+
+
+php spark make:migration CreateCommentsTable
+
+    Likes:
+
+
+php spark make:migration CreateLikesTable
+```
+
 ## Important Change with index.php
 
 `index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
