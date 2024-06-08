@@ -83,9 +83,12 @@ php spark migrate
 ```
 
 ## Make Commands Model
+
 <p>Buat file baru di direktori app/Commands dengan nama MakeModelCommand.php</p>
 <p>Salin dan tempel kode berikut ke dalam file tersebut:</p>
+
 ```bash
+
 <?php
 
 namespace App\Commands;
