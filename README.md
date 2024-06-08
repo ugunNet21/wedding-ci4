@@ -132,6 +132,12 @@ class MakeModelCommand extends BaseCommand
 
 ```
 
+## make model
+```bash
+php spark make:model UserRole
+
+```
+
 ## Important Change with index.php
 
 `index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
